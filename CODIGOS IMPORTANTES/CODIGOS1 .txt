@@ -1,0 +1,8 @@
+frutas = {"manzana": 3, "naranja": 5, "banana": 2}
+
+fruta_a_eliminar = input("Ingrese la fruta que desea eliminar: ")
+if fruta_a_eliminar in frutas:
+    frutas.pop(fruta_a_eliminar)
+    print(f"La fruta {fruta_a_eliminar} ha sido eliminada del diccionario.")
+else:
+    print(f"La fruta {fruta_a_eliminar} no se encuentra en el diccionario.")
